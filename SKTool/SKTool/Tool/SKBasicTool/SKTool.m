@@ -10,7 +10,7 @@
 
 @implementation SKTool
 
-/** 时间戳转为时间 */
+/** MARK: 时间戳转为时间 */
 + (NSString *)changeTimestampWithStr:(NSString *)stamp
 {
 	
@@ -28,7 +28,7 @@
 }
 
 
-/** 输入省份的名字 获取对应的省份编码code */
+/** MARK: 输入省份的名字 获取对应的省份编码code */
 + (NSString *)getProviceCodeWithString:(NSString *)provinceStr
 {
 	 // 获取文件路径  
@@ -47,7 +47,7 @@
 }
 
 
-/** 输入城市的名字 获取对应的省份编码code */
+/** MARK: 输入城市的名字 获取对应的省份编码code */
 + (NSString *)getCityCodeWithString:(NSString *)cityStr{
 	// 获取文件路径
     NSString *path = [[NSBundle mainBundle] pathForResource:@"province_code" ofType:@"json"];
@@ -66,7 +66,7 @@
 	}
 	return @"NO";
 }
-/** 输入区域的名字 获取对应的区域编码code */
+/**	MARK: 输入区域的名字 获取对应的区域编码code */
 + (NSString *)getAreaCodeWithString:(NSString *)areaStr{
 	
 	// 获取文件路径
@@ -85,7 +85,7 @@
 	return @"NO";
 }
 
-
+/** MARK:判断手机号是否是争取的手机号码 */
 + (BOOL)isMobileNumber:(NSString *)mobileNum
 {
     if (mobileNum.length != 11)
@@ -135,7 +135,7 @@
 }
 
 
-// 银行卡正则表达式验证
+/** MARK:银行卡正则表达式验证 */
 + (BOOL)isBankCard:(NSString *)cardNumber
 
 {
@@ -210,5 +210,27 @@
 	return modulus == 0;
 
 }
+
+/**  MARK: 改变一个字符串指定起始结束位置的颜色 大小 */
++ (NSMutableAttributedString *)changeStringColorWithString:(NSString *)str Color:(UIColor *)color fontSize:(CGFloat )font startIndex:(NSInteger)startIdx endIndex:(NSInteger)endIdx{
+	
+	NSMutableAttributedString *noteStr = [[NSMutableAttributedString alloc] initWithString:str];
+    // 需要改变的第一个文字的位置
+    NSUInteger firstLoc = startIdx;
+    // 需要改变的最后一个文字的位置
+    NSUInteger secondLoc = endIdx;
+	
+	secondLoc = secondLoc > str.length ? str.length : secondLoc;
+    // 需要改变的区间
+    NSRange range = NSMakeRange(firstLoc, secondLoc - firstLoc);
+    // 改变颜色
+    [noteStr addAttribute:NSForegroundColorAttributeName value:color range:range];
+	[noteStr addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:font] range:range];
+	
+	return noteStr;
+
+}
+
+
 
 @end

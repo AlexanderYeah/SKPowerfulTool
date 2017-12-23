@@ -17,6 +17,7 @@
 		0313EEE41FEE11FF002F0B2B /* SKToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313EEE31FEE11FF002F0B2B /* SKToolUITests.m */; };
 		0313EEF71FEE1296002F0B2B /* SKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313EEF61FEE1296002F0B2B /* SKTool.m */; };
 		0313EEFA1FEE12CE002F0B2B /* SKUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313EEF91FEE12CE002F0B2B /* SKUITool.m */; };
+		0313EEFC1FEE43CD002F0B2B /* province_code.json in Resources */ = {isa = PBXBuildFile; fileRef = 0313EEFB1FEE43CD002F0B2B /* province_code.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		0313EEF61FEE1296002F0B2B /* SKTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTool.m; sourceTree = "<group>"; };
 		0313EEF81FEE12CE002F0B2B /* SKUITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUITool.h; sourceTree = "<group>"; };
 		0313EEF91FEE12CE002F0B2B /* SKUITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUITool.m; sourceTree = "<group>"; };
+		0313EEFB1FEE43CD002F0B2B /* province_code.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province_code.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		0313EEF21FEE1272002F0B2B /* SKBasicTool */ = {
 			isa = PBXGroup;
 			children = (
+				0313EEFB1FEE43CD002F0B2B /* province_code.json */,
 				0313EEF51FEE1296002F0B2B /* SKTool.h */,
 				0313EEF61FEE1296002F0B2B /* SKTool.m */,
 			);
@@ -293,6 +296,7 @@
 			files = (
 				0313EECE1FEE11FE002F0B2B /* LaunchScreen.storyboard in Resources */,
 				0313EECB1FEE11FE002F0B2B /* Assets.xcassets in Resources */,
+				0313EEFC1FEE43CD002F0B2B /* province_code.json in Resources */,
 				0313EEC91FEE11FE002F0B2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +564,7 @@
 				0313EEEA1FEE11FF002F0B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0313EEEB1FEE11FF002F0B2B /* Build configuration list for PBXNativeTarget "SKToolTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +573,7 @@
 				0313EEED1FEE11FF002F0B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0313EEEE1FEE11FF002F0B2B /* Build configuration list for PBXNativeTarget "SKToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +582,7 @@
 				0313EEF01FEE11FF002F0B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

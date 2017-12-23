@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface SKTool : NSObject
 
 /**  将时间戳字符串转换为时间 */
@@ -30,6 +30,8 @@
 /** 判断是否是银行卡号 */
 + (BOOL)isBankCard:(NSString *)cardNumber;
 
+/** 改变一个字符串指定起始结束位置的颜色 大小 */
++ (NSMutableAttributedString *)changeStringColorWithString:(NSString *)str Color:(UIColor *)color fontSize:(CGFloat)font startIndex:(NSInteger)startIdx endIndex:(NSInteger)endIdx;
 
 
 @end
