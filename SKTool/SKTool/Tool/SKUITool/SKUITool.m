@@ -26,6 +26,14 @@
 	[vc presentViewController:alertVC animated:YES completion:nil];
 }
 
+/** MARK: 改变textfield holer的字体 */
++(UITextField *)changeTextfield:(UITextField *)textfield holderColor:(UIColor *)color holderFont:(CGFloat)fontSize
+{
+	
+	[textfield setValue:color forKeyPath:@"_placeholderLabel.textColor"];
+	[textfield setValue:[UIFont boldSystemFontOfSize:fontSize] forKeyPath:@"_placeholderLabel.font"];
+	return textfield;
+}
 
 
 @end

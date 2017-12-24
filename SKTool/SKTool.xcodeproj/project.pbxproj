@@ -152,6 +152,7 @@
 		0313EEF11FEE123A002F0B2B /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				11F6DE7A1FEF90C800DE8F44 /* Resources */,
 				0313EEF21FEE1272002F0B2B /* SKBasicTool */,
 				0313EEF31FEE1272002F0B2B /* SKNetTool */,
 				0313EEF41FEE1272002F0B2B /* SKUITool */,
@@ -183,6 +184,13 @@
 				0313EEF91FEE12CE002F0B2B /* SKUITool.m */,
 			);
 			path = SKUITool;
+			sourceTree = "<group>";
+		};
+		11F6DE7A1FEF90C800DE8F44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
