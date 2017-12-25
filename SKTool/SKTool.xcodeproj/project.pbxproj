@@ -18,6 +18,7 @@
 		0313EEF71FEE1296002F0B2B /* SKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313EEF61FEE1296002F0B2B /* SKTool.m */; };
 		0313EEFA1FEE12CE002F0B2B /* SKUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313EEF91FEE12CE002F0B2B /* SKUITool.m */; };
 		0313EEFC1FEE43CD002F0B2B /* province_code.json in Resources */ = {isa = PBXBuildFile; fileRef = 0313EEFB1FEE43CD002F0B2B /* province_code.json */; };
+		11F6DE801FF14D3B00DE8F44 /* SKBasicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6DE7F1FF14D3B00DE8F44 /* SKBasicTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		0313EEF81FEE12CE002F0B2B /* SKUITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUITool.h; sourceTree = "<group>"; };
 		0313EEF91FEE12CE002F0B2B /* SKUITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUITool.m; sourceTree = "<group>"; };
 		0313EEFB1FEE43CD002F0B2B /* province_code.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province_code.json; sourceTree = "<group>"; };
+		11F6DE7E1FF14D3B00DE8F44 /* SKBasicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBasicTool.h; sourceTree = "<group>"; };
+		11F6DE7F1FF14D3B00DE8F44 /* SKBasicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBasicTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				0313EEFB1FEE43CD002F0B2B /* province_code.json */,
 				0313EEF51FEE1296002F0B2B /* SKTool.h */,
 				0313EEF61FEE1296002F0B2B /* SKTool.m */,
+				11F6DE7E1FF14D3B00DE8F44 /* SKBasicTool.h */,
+				11F6DE7F1FF14D3B00DE8F44 /* SKBasicTool.m */,
 			);
 			path = SKBasicTool;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F6DE801FF14D3B00DE8F44 /* SKBasicTool.m in Sources */,
 				0313EEC61FEE11FD002F0B2B /* ViewController.m in Sources */,
 				0313EEC31FEE11FD002F0B2B /* AppDelegate.m in Sources */,
 				0313EEC01FEE11FD002F0B2B /* main.m in Sources */,

@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SKTool.h"
 #import "SKUITool.h"
-
+#import "SKBasicTool.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	NSLog(@"%@",[SKBasicTool getCurrentTimeWithType:0]);
 }
 
 
