@@ -35,5 +35,31 @@
 	return textfield;
 }
 
+/** MARK:返回一个渐变色的view color 要传CGColor */
++ (UIView *)getGradientViewWithColorArray:(NSArray *)colorArray{
+	UIView *view = [[UIView alloc] init];
+	CAGradientLayer *gradient = [CAGradientLayer layer];
+	gradient.frame = view.bounds;
+	gradient.colors = colorArray;
+	[view.layer insertSublayer:gradient atIndex:0];
+	return view;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

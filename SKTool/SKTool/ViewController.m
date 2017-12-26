@@ -20,7 +20,16 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	NSLog(@"%@",[SKBasicTool getCurrentTimeWithType:0]);
+	// NSLog(@"%@",[SKBasicTool removeSpaceAndLineFromStr:@"this is   me"]);
+	
+
+	
+	UIView *view2  = [SKUITool getGradientViewWithColorArray:[NSArray arrayWithObjects:(id)[[UIColor cyanColor] CGColor], (id)[[UIColor whiteColor] CGColor], nil]];
+	view2.frame = CGRectMake(200, 200, 100, 100);
+	[self.view addSubview:view2];
+	
+	
+	
 }
 
 

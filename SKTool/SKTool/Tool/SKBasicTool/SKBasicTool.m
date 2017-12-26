@@ -246,6 +246,16 @@
 	return modulus == 0;
 
 }
+/** MARK: 移除一个字符串的空格和换行*/
++ (NSString *)removeSpaceAndLineFromStr:(NSString *)targetStr
+{
+
+	NSString *str = [targetStr stringByReplacingOccurrencesOfString:@" " withString:@""];
+	str = [str stringByReplacingOccurrencesOfString:@"\r" withString:@""];
+	str = [str stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+	return str;
+}
+
 
 /**  MARK: 改变一个字符串指定起始结束位置的颜色 大小 */
 + (NSMutableAttributedString *)changeStringColorWithString:(NSString *)str Color:(UIColor *)color fontSize:(CGFloat )font startIndex:(NSInteger)startIdx endIndex:(NSInteger)endIdx{
@@ -265,6 +275,11 @@
 	
 	return noteStr;
 
+}
+/**MARK: 计算一个Lable的文本宽高*/
++ (CGSize)getLblContentSizeWithString:(NSString *)content width:(CGFloat)width height:(CGFloat)height fontSize:(CGFloat)fontSize{
+
+	return  [content boundingRectWithSize:CGSizeMake(width, height) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:fontSize]} context:nil].size;
 }
 
 @end

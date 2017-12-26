@@ -15,6 +15,10 @@
 
 /** 改变一个textfieldholder的颜色以及大小 */
 + (UITextField *)changeTextfield:(UITextField *)textfield holderColor:(UIColor *)color holderFont:(CGFloat)fontSize;
+/** MARK:返回一个渐变色的view */
++ (UIView *)getGradientViewWithColorArray:(NSArray *)colorArray;
+
+
 @end
 
 
