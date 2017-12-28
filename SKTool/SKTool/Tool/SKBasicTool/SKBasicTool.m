@@ -282,4 +282,23 @@
 	return  [content boundingRectWithSize:CGSizeMake(width, height) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:fontSize]} context:nil].size;
 }
 
+/**MARK: 获取一个数组中特定的值 type = 0 为 最大 1为 最小 2位平均值 */
++ (CGFloat)getArraySpecialValueWithType:(NSUInteger)type withArrar:(NSArray *)array
+{
+	if (type == 0) {
+    return [[array valueForKeyPath:@"@max.floatValue"] floatValue];
+	}else if (type == 1){
+	
+		return  [[array valueForKeyPath:@"@min.floatValue"] floatValue];
+	}else if(type == 2){
+	
+		return [[array valueForKeyPath:@"@avg.floatValue"] floatValue];
+	}else {
+	
+		return 0;
+	}
+
+
+}
+
 @end
