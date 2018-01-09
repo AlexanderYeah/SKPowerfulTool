@@ -18,6 +18,14 @@
 		0313EEF71FEE1296002F0B2B /* SKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313EEF61FEE1296002F0B2B /* SKTool.m */; };
 		0313EEFA1FEE12CE002F0B2B /* SKUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313EEF91FEE12CE002F0B2B /* SKUITool.m */; };
 		0313EEFC1FEE43CD002F0B2B /* province_code.json in Resources */ = {isa = PBXBuildFile; fileRef = 0313EEFB1FEE43CD002F0B2B /* province_code.json */; };
+		0325174A200453C9000DFD61 /* SKNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 03251749200453C9000DFD61 /* SKNetTool.m */; };
+		0325175A20045593000DFD61 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325174E20045593000DFD61 /* AFHTTPSessionManager.m */; };
+		0325175B20045593000DFD61 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325175120045593000DFD61 /* AFNetworkReachabilityManager.m */; };
+		0325175C20045593000DFD61 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325175320045593000DFD61 /* AFSecurityPolicy.m */; };
+		0325175D20045593000DFD61 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325175520045593000DFD61 /* AFURLRequestSerialization.m */; };
+		0325175E20045593000DFD61 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325175720045593000DFD61 /* AFURLResponseSerialization.m */; };
+		0325175F20045593000DFD61 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325175920045593000DFD61 /* AFURLSessionManager.m */; };
+		0325176220046D5E000DFD61 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0325176120046D5E000DFD61 /* 3.png */; };
 		11F6DE801FF14D3B00DE8F44 /* SKBasicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6DE7F1FF14D3B00DE8F44 /* SKBasicTool.m */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +68,22 @@
 		0313EEF81FEE12CE002F0B2B /* SKUITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUITool.h; sourceTree = "<group>"; };
 		0313EEF91FEE12CE002F0B2B /* SKUITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUITool.m; sourceTree = "<group>"; };
 		0313EEFB1FEE43CD002F0B2B /* province_code.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province_code.json; sourceTree = "<group>"; };
+		03251748200453C9000DFD61 /* SKNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNetTool.h; sourceTree = "<group>"; };
+		03251749200453C9000DFD61 /* SKNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNetTool.m; sourceTree = "<group>"; };
+		0325174D20045593000DFD61 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0325174E20045593000DFD61 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		0325174F20045593000DFD61 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		0325175020045593000DFD61 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		0325175120045593000DFD61 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		0325175220045593000DFD61 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		0325175320045593000DFD61 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		0325175420045593000DFD61 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		0325175520045593000DFD61 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		0325175620045593000DFD61 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		0325175720045593000DFD61 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		0325175820045593000DFD61 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		0325175920045593000DFD61 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		0325176120046D5E000DFD61 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		11F6DE7E1FF14D3B00DE8F44 /* SKBasicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBasicTool.h; sourceTree = "<group>"; };
 		11F6DE7F1FF14D3B00DE8F44 /* SKBasicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBasicTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +136,8 @@
 		0313EEBD1FEE11FD002F0B2B /* SKTool */ = {
 			isa = PBXGroup;
 			children = (
+				0325176020046D4F000DFD61 /* Resource */,
+				0325174B2004558B000DFD61 /* Libs */,
 				0313EEF11FEE123A002F0B2B /* Tool */,
 				0313EEC11FEE11FD002F0B2B /* AppDelegate.h */,
 				0313EEC21FEE11FD002F0B2B /* AppDelegate.m */,
@@ -178,6 +204,8 @@
 		0313EEF31FEE1272002F0B2B /* SKNetTool */ = {
 			isa = PBXGroup;
 			children = (
+				03251748200453C9000DFD61 /* SKNetTool.h */,
+				03251749200453C9000DFD61 /* SKNetTool.m */,
 			);
 			path = SKNetTool;
 			sourceTree = "<group>";
@@ -189,6 +217,42 @@
 				0313EEF91FEE12CE002F0B2B /* SKUITool.m */,
 			);
 			path = SKUITool;
+			sourceTree = "<group>";
+		};
+		0325174B2004558B000DFD61 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				0325174C20045593000DFD61 /* AFNetworking */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		0325174C20045593000DFD61 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0325174D20045593000DFD61 /* AFHTTPSessionManager.h */,
+				0325174E20045593000DFD61 /* AFHTTPSessionManager.m */,
+				0325174F20045593000DFD61 /* AFNetworking.h */,
+				0325175020045593000DFD61 /* AFNetworkReachabilityManager.h */,
+				0325175120045593000DFD61 /* AFNetworkReachabilityManager.m */,
+				0325175220045593000DFD61 /* AFSecurityPolicy.h */,
+				0325175320045593000DFD61 /* AFSecurityPolicy.m */,
+				0325175420045593000DFD61 /* AFURLRequestSerialization.h */,
+				0325175520045593000DFD61 /* AFURLRequestSerialization.m */,
+				0325175620045593000DFD61 /* AFURLResponseSerialization.h */,
+				0325175720045593000DFD61 /* AFURLResponseSerialization.m */,
+				0325175820045593000DFD61 /* AFURLSessionManager.h */,
+				0325175920045593000DFD61 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		0325176020046D4F000DFD61 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0325176120046D5E000DFD61 /* 3.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		11F6DE7A1FEF90C800DE8F44 /* Resources */ = {
@@ -307,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0325176220046D5E000DFD61 /* 3.png in Resources */,
 				0313EECE1FEE11FE002F0B2B /* LaunchScreen.storyboard in Resources */,
 				0313EECB1FEE11FE002F0B2B /* Assets.xcassets in Resources */,
 				0313EEFC1FEE43CD002F0B2B /* province_code.json in Resources */,
@@ -336,11 +401,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F6DE801FF14D3B00DE8F44 /* SKBasicTool.m in Sources */,
+				0325175B20045593000DFD61 /* AFNetworkReachabilityManager.m in Sources */,
+				0325174A200453C9000DFD61 /* SKNetTool.m in Sources */,
 				0313EEC61FEE11FD002F0B2B /* ViewController.m in Sources */,
 				0313EEC31FEE11FD002F0B2B /* AppDelegate.m in Sources */,
 				0313EEC01FEE11FD002F0B2B /* main.m in Sources */,
+				0325175C20045593000DFD61 /* AFSecurityPolicy.m in Sources */,
+				0325175D20045593000DFD61 /* AFURLRequestSerialization.m in Sources */,
 				0313EEF71FEE1296002F0B2B /* SKTool.m in Sources */,
 				0313EEFA1FEE12CE002F0B2B /* SKUITool.m in Sources */,
+				0325175E20045593000DFD61 /* AFURLResponseSerialization.m in Sources */,
+				0325175F20045593000DFD61 /* AFURLSessionManager.m in Sources */,
+				0325175A20045593000DFD61 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
