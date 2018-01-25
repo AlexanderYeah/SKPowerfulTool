@@ -11,7 +11,7 @@
 #import "SKUITool.h"
 #import "SKBasicTool.h"
 #import "SKNetTool.h"
-
+#import "SKAudioTool.h"
 
 @interface ViewController ()
 
@@ -41,15 +41,14 @@
 	
 	
 	
+
+	
 }
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
 //	[SKUITool showAlertViewWithTitle:@"Hello" content:@"How Are U" ensureBtnTitle:@"确定" inController:self];
-	
-	
-
 	
 	
 	// get
@@ -91,6 +90,8 @@
 //		NSLog(@"%@",[responseObj description]);
 //	}];
 
+// 音频播放
+	[SKAudioTool playSoundWithSoundName:@"m_03.wav"];
 }
 
 - (void)didReceiveMemoryWarning {

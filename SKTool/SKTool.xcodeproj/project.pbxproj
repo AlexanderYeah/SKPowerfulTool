@@ -26,6 +26,10 @@
 		0325175E20045593000DFD61 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325175720045593000DFD61 /* AFURLResponseSerialization.m */; };
 		0325175F20045593000DFD61 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0325175920045593000DFD61 /* AFURLSessionManager.m */; };
 		0325176220046D5E000DFD61 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0325176120046D5E000DFD61 /* 3.png */; };
+		039D459A201975140003E480 /* m_03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039D4597201975140003E480 /* m_03.wav */; };
+		039D459B201975140003E480 /* m_04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039D4598201975140003E480 /* m_04.wav */; };
+		039D459C201975140003E480 /* m_05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039D4599201975140003E480 /* m_05.wav */; };
+		039D45A0201975AC0003E480 /* SKAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D459F201975AC0003E480 /* SKAudioTool.m */; };
 		11F6DE801FF14D3B00DE8F44 /* SKBasicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6DE7F1FF14D3B00DE8F44 /* SKBasicTool.m */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +88,11 @@
 		0325175820045593000DFD61 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		0325175920045593000DFD61 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		0325176120046D5E000DFD61 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		039D4597201975140003E480 /* m_03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = m_03.wav; path = SKTool/Resource/m_03.wav; sourceTree = SOURCE_ROOT; };
+		039D4598201975140003E480 /* m_04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = m_04.wav; path = SKTool/Resource/m_04.wav; sourceTree = SOURCE_ROOT; };
+		039D4599201975140003E480 /* m_05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = m_05.wav; path = SKTool/Resource/m_05.wav; sourceTree = SOURCE_ROOT; };
+		039D459E201975AC0003E480 /* SKAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAudioTool.h; sourceTree = "<group>"; };
+		039D459F201975AC0003E480 /* SKAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAudioTool.m; sourceTree = "<group>"; };
 		11F6DE7E1FF14D3B00DE8F44 /* SKBasicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBasicTool.h; sourceTree = "<group>"; };
 		11F6DE7F1FF14D3B00DE8F44 /* SKBasicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBasicTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +190,7 @@
 		0313EEF11FEE123A002F0B2B /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				039D459D201975AC0003E480 /* SKAVTool */,
 				11F6DE7A1FEF90C800DE8F44 /* Resources */,
 				0313EEF21FEE1272002F0B2B /* SKBasicTool */,
 				0313EEF31FEE1272002F0B2B /* SKNetTool */,
@@ -255,9 +265,21 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		039D459D201975AC0003E480 /* SKAVTool */ = {
+			isa = PBXGroup;
+			children = (
+				039D459E201975AC0003E480 /* SKAudioTool.h */,
+				039D459F201975AC0003E480 /* SKAudioTool.m */,
+			);
+			path = SKAVTool;
+			sourceTree = "<group>";
+		};
 		11F6DE7A1FEF90C800DE8F44 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				039D4597201975140003E480 /* m_03.wav */,
+				039D4598201975140003E480 /* m_04.wav */,
+				039D4599201975140003E480 /* m_05.wav */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -329,7 +351,7 @@
 				TargetAttributes = {
 					0313EEBA1FEE11FD002F0B2B = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 7DC4XMJV5E;
+						DevelopmentTeam = 35T94Q6EVP;
 						ProvisioningStyle = Automatic;
 					};
 					0313EED31FEE11FE002F0B2B = {
@@ -374,8 +396,11 @@
 				0325176220046D5E000DFD61 /* 3.png in Resources */,
 				0313EECE1FEE11FE002F0B2B /* LaunchScreen.storyboard in Resources */,
 				0313EECB1FEE11FE002F0B2B /* Assets.xcassets in Resources */,
+				039D459A201975140003E480 /* m_03.wav in Resources */,
 				0313EEFC1FEE43CD002F0B2B /* province_code.json in Resources */,
+				039D459C201975140003E480 /* m_05.wav in Resources */,
 				0313EEC91FEE11FE002F0B2B /* Main.storyboard in Resources */,
+				039D459B201975140003E480 /* m_04.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +433,7 @@
 				0313EEC01FEE11FD002F0B2B /* main.m in Sources */,
 				0325175C20045593000DFD61 /* AFSecurityPolicy.m in Sources */,
 				0325175D20045593000DFD61 /* AFURLRequestSerialization.m in Sources */,
+				039D45A0201975AC0003E480 /* SKAudioTool.m in Sources */,
 				0313EEF71FEE1296002F0B2B /* SKTool.m in Sources */,
 				0313EEFA1FEE12CE002F0B2B /* SKUITool.m in Sources */,
 				0325175E20045593000DFD61 /* AFURLResponseSerialization.m in Sources */,
@@ -561,7 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
 				INFOPLIST_FILE = SKTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTool;
@@ -573,7 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
 				INFOPLIST_FILE = SKTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.SKTool;
